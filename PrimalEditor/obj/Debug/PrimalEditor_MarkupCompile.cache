@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 C:\Users\C16632B\OneDrive - CNH Industrial\Desktop\Programming\Game_Engine\PrimalEditor\App.xaml
-42038757441
+10-764822296
 
-12-1345153625
+251260569800
 198-688555687
-GameProject\NewProjectView.xaml;GameProject\OpenProjectView.xaml;GameProject\ProjectBrowserDialog.xaml;MainWindow.xaml;
+Dictionaries\ControlTemplates.xaml;Editors\WorldEditor\GameEntityView.xaml;Editors\WorldEditor\ProjectLayoutView.xaml;Editors\WorldEditor\WorldEditorView.xaml;GameProject\NewProjectView.xaml;GameProject\OpenProjectView.xaml;GameProject\ProjectBrowserDialog.xaml;MainWindow.xaml;Utility\LoggerView.xaml;Utility\UndoRedoView.xaml;
 
 False
 

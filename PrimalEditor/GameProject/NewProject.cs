@@ -158,7 +158,7 @@ namespace PrimalEditor.GameProject
                 var dirInfo = new DirectoryInfo(path + @".Primal\");
                 dirInfo.Attributes |= FileAttributes.Hidden;
                 File.Copy(template.IconFilepath, Path.GetFullPath(Path.Combine(dirInfo.FullName, "Icon.png")));
-                File.Copy(template.IconFilepath, Path.GetFullPath(Path.Combine(dirInfo.FullName, "Screenshot.png")));
+                File.Copy(template.ScreenshotFilepath, Path.GetFullPath(Path.Combine(dirInfo.FullName, "Screenshot.png")));
 
                 // var project = new Project(ProjectName, path);
                 //Serializer.ToFile(project, path + $"ProjectName" + Project.Extension);
@@ -173,7 +173,8 @@ namespace PrimalEditor.GameProject
             catch(Exception ex)
             {
                 Debug.WriteLine(ex.Message);
-                return string.Empty;
+                Logger.Log(MessageType.Error, $"Failed to create {ProjectName}");
+                throw;
             }
         }
         public NewProject()
@@ -197,6 +198,8 @@ namespace PrimalEditor.GameProject
             catch (Exception ex)
             {
                 Debug.WriteLine(ex.Message);
+                Logger.Log(MessageType.Error, $"Failed to read project templates");
+                throw;
             }
         }
     }

@@ -53,3 +53,16 @@ C:\Users\C16632B\OneDrive - CNH Industrial\Desktop\Programming\Game_Engine\Prima
 C:\Users\C16632B\OneDrive - CNH Industrial\Desktop\Programming\Game_Engine\PrimalEditor\obj\Debug\PrimalEditor.pdb
 C:\Users\C16632B\OneDrive - CNH Industrial\Desktop\Programming\Game_Engine\PrimalEditor\obj\Debug\PrimalEditor.genruntimeconfig.cache
 C:\Users\C16632B\OneDrive - CNH Industrial\Desktop\Programming\Game_Engine\PrimalEditor\obj\Debug\ref\PrimalEditor.dll
+C:\Users\C16632B\OneDrive - CNH Industrial\Desktop\Programming\Game_Engine\PrimalEditor\obj\Debug\Editors\WorldEditor\WorldEditorView.g.cs
+C:\Users\C16632B\OneDrive - CNH Industrial\Desktop\Programming\Game_Engine\PrimalEditor\obj\Debug\Editors\WorldEditor\WorldEditorView.baml
+C:\Users\C16632B\OneDrive - CNH Industrial\Desktop\Programming\Game_Engine\PrimalEditor\obj\Debug\Editors\WorldEditor\ProjectLayoutView.g.cs
+C:\Users\C16632B\OneDrive - CNH Industrial\Desktop\Programming\Game_Engine\PrimalEditor\obj\Debug\Editors\WorldEditor\ProjectLayoutView.baml
+C:\Users\C16632B\OneDrive - CNH Industrial\Desktop\Programming\Game_Engine\PrimalEditor\obj\Debug\Utility\UndoRedoView.g.cs
+C:\Users\C16632B\OneDrive - CNH Industrial\Desktop\Programming\Game_Engine\PrimalEditor\obj\Debug\Utility\UndoRedoView.baml
+C:\Users\C16632B\OneDrive - CNH Industrial\Desktop\Programming\Game_Engine\PrimalEditor\obj\Debug\Editors\WorldEditor\GameEntityView.g.cs
+C:\Users\C16632B\OneDrive - CNH Industrial\Desktop\Programming\Game_Engine\PrimalEditor\obj\Debug\Editors\WorldEditor\GameEntityView.baml
+C:\Users\C16632B\OneDrive - CNH Industrial\Desktop\Programming\Game_Engine\PrimalEditor\obj\Debug\Dictionaries\ControlTemplates.g.cs
+C:\Users\C16632B\OneDrive - CNH Industrial\Desktop\Programming\Game_Engine\PrimalEditor\obj\Debug\App.baml
+C:\Users\C16632B\OneDrive - CNH Industrial\Desktop\Programming\Game_Engine\PrimalEditor\obj\Debug\Dictionaries\ControlTemplates.baml
+C:\Users\C16632B\OneDrive - CNH Industrial\Desktop\Programming\Game_Engine\PrimalEditor\obj\Debug\Utility\LoggerView.g.cs
+C:\Users\C16632B\OneDrive - CNH Industrial\Desktop\Programming\Game_Engine\PrimalEditor\obj\Debug\Utility\LoggerView.baml

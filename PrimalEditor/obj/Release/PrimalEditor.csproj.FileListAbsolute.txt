@@ -53,3 +53,11 @@ C:\Users\C16632B\OneDrive - CNH Industrial\Desktop\Programming\Game_Engine\Prima
 C:\Users\C16632B\OneDrive - CNH Industrial\Desktop\Programming\Game_Engine\PrimalEditor\obj\Release\PrimalEditor.pdb
 C:\Users\C16632B\OneDrive - CNH Industrial\Desktop\Programming\Game_Engine\PrimalEditor\obj\Release\PrimalEditor.genruntimeconfig.cache
 C:\Users\C16632B\OneDrive - CNH Industrial\Desktop\Programming\Game_Engine\PrimalEditor\obj\Release\ref\PrimalEditor.dll
+C:\Users\C16632B\OneDrive - CNH Industrial\Desktop\Programming\Game_Engine\PrimalEditor\obj\Release\Editors\WorldEditor\ProjectLayoutView.g.cs
+C:\Users\C16632B\OneDrive - CNH Industrial\Desktop\Programming\Game_Engine\PrimalEditor\obj\Release\Editors\WorldEditor\WorldEditorView.g.cs
+C:\Users\C16632B\OneDrive - CNH Industrial\Desktop\Programming\Game_Engine\PrimalEditor\obj\Release\Utility\UndoRedoView.g.cs
+C:\Users\C16632B\OneDrive - CNH Industrial\Desktop\Programming\Game_Engine\PrimalEditor\obj\Release\Editors\WorldEditor\ProjectLayoutView.baml
+C:\Users\C16632B\OneDrive - CNH Industrial\Desktop\Programming\Game_Engine\PrimalEditor\obj\Release\Editors\WorldEditor\WorldEditorView.baml
+C:\Users\C16632B\OneDrive - CNH Industrial\Desktop\Programming\Game_Engine\PrimalEditor\obj\Release\Utility\UndoRedoView.baml
+C:\Users\C16632B\OneDrive - CNH Industrial\Desktop\Programming\Game_Engine\PrimalEditor\obj\Release\Editors\WorldEditor\GameEntityView.g.cs
+C:\Users\C16632B\OneDrive - CNH Industrial\Desktop\Programming\Game_Engine\PrimalEditor\obj\Release\Editors\WorldEditor\GameEntityView.baml
