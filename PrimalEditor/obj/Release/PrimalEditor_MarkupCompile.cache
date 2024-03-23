@@ -1,0 +1,20 @@
+﻿PrimalEditor
+
+
+winexe
+C#
+.cs
+C:\Users\C16632B\OneDrive - CNH Industrial\Desktop\Programming\Game_Engine\PrimalEditor\obj\Release\
+PrimalEditor
+none
+false
+TRACE;RELEASE;NET;NET8_0;NETCOREAPP
+C:\Users\C16632B\OneDrive - CNH Industrial\Desktop\Programming\Game_Engine\PrimalEditor\App.xaml
+8-1420815816
+
+221898795588
+198-688555687
+Editors\WorldEditor\GameEntityView.xaml;Editors\WorldEditor\ProjectLayoutView.xaml;Editors\WorldEditor\WorldEditorView.xaml;GameProject\NewProjectView.xaml;GameProject\OpenProjectView.xaml;GameProject\ProjectBrowserDialog.xaml;MainWindow.xaml;Utility\UndoRedoView.xaml;
+
+False
+
