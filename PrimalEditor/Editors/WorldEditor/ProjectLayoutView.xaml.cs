@@ -39,16 +39,6 @@ namespace PrimalEditor.Editors
         {
             GameEntityView.Instance.DataContext = null;
             var listBox = sender as ListBox;
-            if(e.AddedItems.Count > 0)
-            {
-                if(listBox != null)
-                {
-                    var test = listBox.SelectedItems[0];
-                    GameEntityView.Instance.DataContext = test;
-                  // test1 = listBox.SelectedItems[0];
-                }
-            }
-
             var newSelection = listBox.SelectedItems.Cast<GameEntity>().ToList();
             var previousSelection = newSelection.Except(e.AddedItems.Cast<GameEntity>()).Concat(e.RemovedItems.Cast<GameEntity>()).ToList();
 
@@ -65,6 +55,13 @@ namespace PrimalEditor.Editors
                 },
                 "Selection Changed"
                 ));
+
+            MSGameEntity msEntity = null;
+            if(newSelection.Any())
+            {
+                msEntity = new MSGameEntity(newSelection);
+            }
+            GameEntityView.Instance.DataContext = msEntity;
         }
 
     }

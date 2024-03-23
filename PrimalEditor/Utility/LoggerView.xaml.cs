@@ -24,5 +24,20 @@ namespace PrimalEditor.Utilities
         {
             InitializeComponent();
         }
+
+        private void OnClear_Button_Click(object sender, RoutedEventArgs e)
+        {
+            Logger.Clear();
+        }
+
+        private void OnMessageFilter_Button_Click(object sender,RoutedEventArgs e)
+        {
+            var filter = 0X0;
+            if(toggleInfo.IsChecked == true) filter |= (int)MessageType.Info;
+            if (toggleWarnings.IsChecked == true) filter |= (int)MessageType.Warning;
+            if (toggleErrors.IsChecked == true) filter |= (int)MessageType.Error;
+            Logger.SetMessageFilter(filter);
+
+        }
     }
 }
