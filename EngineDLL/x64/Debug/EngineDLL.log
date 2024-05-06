@@ -1,0 +1,8 @@
+﻿  dllmain.cpp
+  EngineAPI.cpp
+  Generating Code...
+C:\Users\C16632B\OneDrive - CNH Industrial\Desktop\Programming\Game_Engine\Engine\Utilities\MathTypes.h(6,21): warning C4305: 'initializing': truncation from 'double' to 'const float'
+  (compiling source file 'EngineAPI.cpp')
+  
+     Creating library C:\Users\C16632B\OneDrive - CNH Industrial\Desktop\Programming\Game_Engine\x64\Debug\EngineDLL.lib and object C:\Users\C16632B\OneDrive - CNH Industrial\Desktop\Programming\Game_Engine\x64\Debug\EngineDLL.exp
+  EngineDLL.vcxproj -> C:\Users\C16632B\OneDrive - CNH Industrial\Desktop\Programming\Game_Engine\x64\Debug\EngineDLL.dll
