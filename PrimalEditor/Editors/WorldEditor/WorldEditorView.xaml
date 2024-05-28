@@ -5,12 +5,20 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:PrimalEditor.Editors"
              xmlns:utl="clr-namespace:PrimalEditor.Utilities"
+             xmlns:ctlr="clr-namespace:PrimalEditor.Utilities.Controls"
+             xmlns:sys="clr-namespace:System;assembly=mscorlib"
              mc:Ignorable="d" Focusable="True"
              d:DesignHeight="450" d:DesignWidth="800">
+    <UserControl.Resources>
+        <sys:Boolean x:Key="True">True</sys:Boolean>
+        <sys:Boolean x:Key="False">False</sys:Boolean>
+    </UserControl.Resources>
     <UserControl.InputBindings>
         <KeyBinding Command="{Binding UndoCommand}" Key="Z" Modifiers ="Ctrl"/>
-        <KeyBinding Command="{Binding RedoCommand}" Key="y" Modifiers="Ctrl"/>
+        <KeyBinding Command="{Binding RedoCommand}" Key="Z" Modifiers="Ctrl+Shift"/>
         <KeyBinding Command="{Binding SaveCommand}" Key="S" Modifiers = "Ctrl"/>
+        <KeyBinding Command="{Binding BuildCommand}" CommandParameter="{StaticResource True}" Key="F7"/>
+
     </UserControl.InputBindings>
     <Grid>
         <Grid.RowDefinitions>
@@ -19,37 +27,64 @@
         </Grid.RowDefinitions>
         <StackPanel Orientation="Horizontal">
             <Button Content="Undo" Command="{Binding UndoCommand}" />
-            <Button Content="Redo"  Command="{Binding RedoCommand}" Margin="32,0,0,0" />
+            <Button Content="Redo"  Command="{Binding RedoCommand}" Margin="5,0" />
+            <Button Content="New Script"  Click="OnNewScript_Button_Click" 
+                   IsEnabled="{Binding Path=IsEnabled,ElementName=buildButton}" />
+            <Button x:Name="buildButton" Content="Build" Margin="5,0"
+                    Command="{Binding BuildCommand}" CommandParameter="{StaticResource True}"/>
+            <ComboBox x:Name="runConfig" VerticalAlignment="Center" Width="72" 
+                      SelectedIndex="{Binding BuildConfig}">
+                <ComboBoxItem Content="Debug"/>
+                <ComboBoxItem Content="Release"/>
+            </ComboBox>
         </StackPanel>
         <Grid Grid.Row="1">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition/>
-                <ColumnDefinition/>
+                <ColumnDefinition Width="Auto"/>
             </Grid.ColumnDefinitions>
             <Grid Grid.Column="0">
                 <Grid.RowDefinitions>
                     <RowDefinition/>
                     <RowDefinition/>
                 </Grid.RowDefinitions>
-                <GridSplitter Grid.Row="1" Height="5" HorizontalAlignment="Stretch" VerticalAlignment="Top"/>
-                <TabControl Grid.Row="1">
-                    <TabItem Header="History">
-                        <utl:UndoRedoView DataContext="{Binding UndoRedo}" />
-                    </TabItem>
-                    <TabItem Header="Log">
-                        <utl:LoggerView/>
-                    </TabItem>
-                </TabControl>
+                <Border Background="{StaticResource Editor.Selected.BackgroundBrush}">
+                    <StackPanel VerticalAlignment="Center">
+                        <ctlr:NumberBox Value="0" Foreground="{StaticResource Editor.FontBrush}"/>
+                        <ctlr:ScalarBox Value="10" Multiplier="10"/>
+                        <ctlr:VectorBox X="0" Y="1" Z="2" W="3" VectorType="Vector2"/>
+                        <ctlr:VectorBox X="0" Y="1" Z="2" W="3" VectorType="Vector3"/>
+                        <ctlr:VectorBox X="0" Y="1" Z="2" W="3" VectorType="Vector4"/>
+
+                        <ctlr:VectorBox X="0" Y="1" Z="2" W="3" VectorType="Vector2" Orientation="Vertical"/>
+                        <ctlr:VectorBox X="0" Y="1" Z="2" W="3" VectorType="Vector3" Orientation="Vertical"/>
+                        <ctlr:VectorBox X="0" Y="1" Z="2" W="3" VectorType="Vector4" Orientation="Vertical"/>
+                    </StackPanel>
+                </Border>
+                <GridSplitter Grid.Row="1" Height="3" HorizontalAlignment="Stretch" VerticalAlignment="Top" Background="Transparent"/>
+                <Grid Grid.Row="1" Height="5" HorizontalAlignment="Stretch"
+                      VerticalAlignment="Top" Background="Transparent"/>
+                <Grid Grid.Row="1" Margin="0,5,5,5">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <utl:UndoRedoView DataContext="{Binding UndoRedo}" Grid.Column="0"
+                                      Background="{StaticResource Editor.Window.GrayBrush2}"/>
+                    <GridSplitter Grid.Column="1" Width="5" VerticalAlignment="Stretch"
+                                  HorizontalAlignment="Left" Background="Transparent"/>
+                    <utl:LoggerView Grid.Column="1" Margin="5,0,0,0"/>
+                </Grid>
             </Grid>
-            <GridSplitter Grid.Column="1" Width="5" HorizontalAlignment="Left" VerticalAlignment="Stretch"/>
-            <Grid Grid.Column="1" Margin="5,0,0,0">
+            <GridSplitter Grid.Column="1" Width="5" HorizontalAlignment="Left" VerticalAlignment="Stretch" Background="Transparent"/>
+            <Grid Grid.Column="1" Margin="5,0,0,0" MinWidth="250">
                 <Grid.RowDefinitions>
                     <RowDefinition/>
                     <RowDefinition/>
                 </Grid.RowDefinitions>
-                <GridSplitter Grid.Row="1" Height="5" HorizontalAlignment="Stretch" VerticalAlignment="Top"/>
-                <local:ProjectLayoutView/>
-                <local:GameEntityView Grid.Row="1"/>
+                <GridSplitter Grid.Row="1" Height="5" HorizontalAlignment="Stretch" VerticalAlignment="Top" Background="Transparent"/>
+                <local:ProjectLayoutView Background="{StaticResource Editor.Window.GrayBrush3}"/>
+                <local:GameEntityView Grid.Row="1" Background="{StaticResource Editor.Window.GrayBrush3}" Margin="0,5,0,0"/>
             </Grid>
         </Grid>
     </Grid>

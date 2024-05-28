@@ -11,6 +11,6 @@ struct init_info
 	f32 scale[3]{ 1.f, 1.f, 1.f };
 };
 
-component create_transform(const init_info& info, game_entity::entity entity_id);
-void remove_transform(component c);
+component create(init_info info, game_entity::entity entity_id);
+void remove(component c);
 }

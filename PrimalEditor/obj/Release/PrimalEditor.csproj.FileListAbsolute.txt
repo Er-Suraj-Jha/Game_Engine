@@ -61,3 +61,13 @@ C:\Users\C16632B\OneDrive - CNH Industrial\Desktop\Programming\Game_Engine\Prima
 C:\Users\C16632B\OneDrive - CNH Industrial\Desktop\Programming\Game_Engine\PrimalEditor\obj\Release\Utility\UndoRedoView.baml
 C:\Users\C16632B\OneDrive - CNH Industrial\Desktop\Programming\Game_Engine\PrimalEditor\obj\Release\Editors\WorldEditor\GameEntityView.g.cs
 C:\Users\C16632B\OneDrive - CNH Industrial\Desktop\Programming\Game_Engine\PrimalEditor\obj\Release\Editors\WorldEditor\GameEntityView.baml
+C:\Users\C16632B\OneDrive - CNH Industrial\Desktop\Programming\Game_Engine\PrimalEditor\obj\Release\Dictionaries\ControlTemplates.g.cs
+C:\Users\C16632B\OneDrive - CNH Industrial\Desktop\Programming\Game_Engine\PrimalEditor\obj\Release\Editors\WorldEditor\ComponentView.g.cs
+C:\Users\C16632B\OneDrive - CNH Industrial\Desktop\Programming\Game_Engine\PrimalEditor\obj\Release\Editors\WorldEditor\TransformView.g.cs
+C:\Users\C16632B\OneDrive - CNH Industrial\Desktop\Programming\Game_Engine\PrimalEditor\obj\Release\Utility\LoggerView.g.cs
+C:\Users\C16632B\OneDrive - CNH Industrial\Desktop\Programming\Game_Engine\PrimalEditor\obj\Release\App.baml
+C:\Users\C16632B\OneDrive - CNH Industrial\Desktop\Programming\Game_Engine\PrimalEditor\obj\Release\Dictionaries\ControlTemplates.baml
+C:\Users\C16632B\OneDrive - CNH Industrial\Desktop\Programming\Game_Engine\PrimalEditor\obj\Release\Dictionaries\EditorColors.baml
+C:\Users\C16632B\OneDrive - CNH Industrial\Desktop\Programming\Game_Engine\PrimalEditor\obj\Release\Editors\WorldEditor\ComponentView.baml
+C:\Users\C16632B\OneDrive - CNH Industrial\Desktop\Programming\Game_Engine\PrimalEditor\obj\Release\Editors\WorldEditor\TransformView.baml
+C:\Users\C16632B\OneDrive - CNH Industrial\Desktop\Programming\Game_Engine\PrimalEditor\obj\Release\Utility\LoggerView.baml

@@ -28,6 +28,7 @@ namespace PrimalEditor.Utilities
         private void OnClear_Button_Click(object sender, RoutedEventArgs e)
         {
             Logger.Clear();
+            
         }
 
         private void OnMessageFilter_Button_Click(object sender,RoutedEventArgs e)
