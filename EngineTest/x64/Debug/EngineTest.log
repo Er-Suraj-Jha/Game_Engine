@@ -1,5 +1,1 @@
-﻿  Main.cpp
-C:\Users\C16632B\OneDrive - CNH Industrial\Desktop\Programming\Game_Engine\Engine\Utilities\MathTypes.h(6,21): warning C4305: 'initializing': truncation from 'double' to 'const float'
-  (compiling source file 'Main.cpp')
-  
-  EngineTest.vcxproj -> C:\Users\C16632B\OneDrive - CNH Industrial\Desktop\Programming\Game_Engine\x64\Debug\EngineTest.exe
+﻿  EngineTest.vcxproj -> C:\Users\C16632B\OneDrive - CNH Industrial\Desktop\Programming\Game_Engine\x64\Debug\EngineTest.exe

@@ -7,13 +7,28 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
+    <Compile Update="Editors\WorldEditor\ComponentView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="Editors\WorldEditor\GameEntityView.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="Editors\WorldEditor\ProjectLayoutView.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="Editors\WorldEditor\ScriptView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Editors\WorldEditor\TransformView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="Editors\WorldEditor\WorldEditorView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="EnginePathDialog.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="GameDev\NewScriptDialog.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="GameProject\NewProjectView.xaml.cs">
@@ -36,13 +51,31 @@
     <Page Update="Dictionaries\ControlTemplates.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="Dictionaries\EditorColors.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Editors\WorldEditor\ComponentView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="Editors\WorldEditor\GameEntityView.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Editors\WorldEditor\ProjectLayoutView.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="Editors\WorldEditor\ScriptView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Editors\WorldEditor\TransformView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="Editors\WorldEditor\WorldEditorView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="EnginePathDialog.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="GameDev\NewScriptDialog.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="GameProject\NewProjectView.xaml">
@@ -58,6 +91,9 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Utility\LoggerView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Utility\RenderSurface\RenderSurfaceView.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Utility\UndoRedoView.xaml">

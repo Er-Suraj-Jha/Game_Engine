@@ -1,5 +1,6 @@
 // Copyright (c) Suraj Jha
 #pragma once
+#include <thread>
 
 class test {
 public:

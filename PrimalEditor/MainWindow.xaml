@@ -6,7 +6,8 @@
         xmlns:local="clr-namespace:PrimalEditor"
         xmlns:editors="clr-namespace:PrimalEditor.Editors"
         mc:Ignorable="d" WindowStartupLocation="CenterScreen"
-        Title="Primal Editor" Height="400" Width="820">
+        Title="Primal Editor" Height="400" Width="820"
+        Style="{StaticResource PrimalWindowStyle}">
     <Grid>
         <editors:WorldEditorView/>
     </Grid>

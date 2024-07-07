@@ -13,6 +13,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using PrimalEditor.GameDev;
 using PrimalEditor.GameProject;
 
 namespace PrimalEditor.Editors
@@ -32,7 +33,11 @@ namespace PrimalEditor.Editors
         {
             Loaded -= OnWorldEditorViewLoaded;
             Focus();
-            ((INotifyCollectionChanged)Project.UndoRedo.UndoList).CollectionChanged += (s, e) =>Focus();
+        }
+
+        private void OnNewScript_Button_Click(object sender, RoutedEventArgs e)
+        {
+            new NewScriptDialog().ShowDialog();
         }
     }
 }
