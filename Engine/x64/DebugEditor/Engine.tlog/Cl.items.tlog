@@ -1,4 +1,7 @@
 C:\Users\C16632B\OneDrive - CNH Industrial\Desktop\Programming\Game_Engine\Engine\Components\Entity.cpp;C:\Users\C16632B\OneDrive - CNH Industrial\Desktop\Programming\Game_Engine\Engine\x64\DebugEditor\Entity.obj
 C:\Users\C16632B\OneDrive - CNH Industrial\Desktop\Programming\Game_Engine\Engine\Components\Script.cpp;C:\Users\C16632B\OneDrive - CNH Industrial\Desktop\Programming\Game_Engine\Engine\x64\DebugEditor\Script.obj
 C:\Users\C16632B\OneDrive - CNH Industrial\Desktop\Programming\Game_Engine\Engine\Components\Transform.cpp;C:\Users\C16632B\OneDrive - CNH Industrial\Desktop\Programming\Game_Engine\Engine\x64\DebugEditor\Transform.obj
+C:\Users\C16632B\OneDrive - CNH Industrial\Desktop\Programming\Game_Engine\Engine\Content\ContentLoader.cpp;C:\Users\C16632B\OneDrive - CNH Industrial\Desktop\Programming\Game_Engine\Engine\x64\DebugEditor\ContentLoader.obj
+C:\Users\C16632B\OneDrive - CNH Industrial\Desktop\Programming\Game_Engine\Engine\Core\Engine.cpp;C:\Users\C16632B\OneDrive - CNH Industrial\Desktop\Programming\Game_Engine\Engine\x64\DebugEditor\Engine.obj
 C:\Users\C16632B\OneDrive - CNH Industrial\Desktop\Programming\Game_Engine\Engine\Core\Main.cpp;C:\Users\C16632B\OneDrive - CNH Industrial\Desktop\Programming\Game_Engine\Engine\x64\DebugEditor\Main.obj
+C:\Users\C16632B\OneDrive - CNH Industrial\Desktop\Programming\Game_Engine\Engine\Platform\Platform.cpp;C:\Users\C16632B\OneDrive - CNH Industrial\Desktop\Programming\Game_Engine\Engine\x64\DebugEditor\Platform.obj

@@ -55,7 +55,7 @@ namespace PrimalEditor.Editors {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/PrimalEditor;V1.0.0.0;component/editors/worldeditor/transformview.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/PrimalEditor;component/editors/worldeditor/transformview.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\..\Editors\WorldEditor\TransformView.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

@@ -16,8 +16,6 @@
   </PropertyGroup>
 
 
-
-
   <ItemGroup>
     <COMReference Include="EnvDTE80">
       <WrapperTool>tlbimp</WrapperTool>
@@ -38,6 +36,8 @@
       <EmbedInteropTypes>false</EmbedInteropTypes>
     </COMReference>
   </ItemGroup>
+
+
 
 
 

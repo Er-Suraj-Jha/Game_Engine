@@ -73,3 +73,7 @@ C:\Users\C16632B\OneDrive - CNH Industrial\Desktop\Programming\Game_Engine\Prima
 C:\Users\C16632B\OneDrive - CNH Industrial\Desktop\Programming\Game_Engine\PrimalEditor\obj\x64\Debug\MainWindow.baml
 C:\Users\C16632B\OneDrive - CNH Industrial\Desktop\Programming\Game_Engine\PrimalEditor\obj\x64\Debug\Utility\LoggerView.baml
 C:\Users\C16632B\OneDrive - CNH Industrial\Desktop\Programming\Game_Engine\PrimalEditor\obj\x64\Debug\Utility\UndoRedoView.baml
+C:\Users\C16632B\OneDrive - CNH Industrial\Desktop\Programming\Game_Engine\PrimalEditor\obj\x64\Debug\Editors\WorldEditor\ScriptView.g.cs
+C:\Users\C16632B\OneDrive - CNH Industrial\Desktop\Programming\Game_Engine\PrimalEditor\obj\x64\Debug\Editors\WorldEditor\ScriptView.baml
+C:\Users\C16632B\OneDrive - CNH Industrial\Desktop\Programming\Game_Engine\PrimalEditor\obj\x64\Debug\Utility\RenderSurface\RenderSurfaceView.g.cs
+C:\Users\C16632B\OneDrive - CNH Industrial\Desktop\Programming\Game_Engine\PrimalEditor\obj\x64\Debug\Utility\RenderSurface\RenderSurfaceView.baml

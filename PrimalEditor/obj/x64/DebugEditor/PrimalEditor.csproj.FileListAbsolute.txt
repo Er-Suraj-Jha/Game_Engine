@@ -63,3 +63,5 @@ C:\Users\C16632B\OneDrive - CNH Industrial\Desktop\Programming\Game_Engine\x64\D
 C:\Users\C16632B\OneDrive - CNH Industrial\Desktop\Programming\Game_Engine\x64\DebugEditor\PrimalEditor.pdb
 C:\Users\C16632B\OneDrive - CNH Industrial\Desktop\Programming\Game_Engine\PrimalEditor\obj\x64\DebugEditor\Editors\WorldEditor\ScriptView.g.cs
 C:\Users\C16632B\OneDrive - CNH Industrial\Desktop\Programming\Game_Engine\PrimalEditor\obj\x64\DebugEditor\Editors\WorldEditor\ScriptView.baml
+C:\Users\C16632B\OneDrive - CNH Industrial\Desktop\Programming\Game_Engine\PrimalEditor\obj\x64\DebugEditor\Utility\RenderSurface\RenderSurfaceView.g.cs
+C:\Users\C16632B\OneDrive - CNH Industrial\Desktop\Programming\Game_Engine\PrimalEditor\obj\x64\DebugEditor\Utility\RenderSurface\RenderSurfaceView.baml

@@ -70,12 +70,12 @@ namespace primal {
 				{ primal::script::detail::add_script_name(#TYPE) };			  \
 			}
 #else
-#define REGISTER_SCRIPT(TYPE)                                                 \													  \
+#define REGISTER_SCRIPT(TYPE)                                                 \
 				namespace {													  \
 					const u8 _reg##TYPE										  \
 				{primal::script::detail::register_script(				      \
 						primal::script::detail::string_hash()(#TYPE),         \
-						& primal::script::detail::create_script<TYPE>)};      \		  \
+						& primal::script::detail::create_script<TYPE>)};      \
 			}
 #endif //USE_WITH_EDITOR
 		}  //namespace detail

@@ -3,6 +3,7 @@
   <ItemGroup>
     <ClInclude Include="Test.h" />
     <ClInclude Include="TestEntityComponents.h" />
+    <ClInclude Include="TestWindow.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp" />
