@@ -85,7 +85,7 @@ namespace PrimalEditor.Utilities {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/PrimalEditor;component/utility/loggerview.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/PrimalEditor;V1.0.0.0;component/utility/loggerview.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\Utility\LoggerView.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

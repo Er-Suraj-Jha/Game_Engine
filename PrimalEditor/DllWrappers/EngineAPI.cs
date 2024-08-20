@@ -14,7 +14,6 @@ using PrimalEditor.GameProject;
 namespace PrimalEditor.EngineAPIStructs
 {
     [StructLayout(LayoutKind.Sequential)]
-
     class TransformComponent
     {
         public Vector3 Position;
@@ -29,7 +28,6 @@ namespace PrimalEditor.EngineAPIStructs
     }
 
     [StructLayout(LayoutKind.Sequential)]
-
     class GameEntityDescriptor
     {
         public TransformComponent Transform = new TransformComponent();
