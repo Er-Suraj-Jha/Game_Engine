@@ -1,0 +1,23 @@
+﻿  Geometry.cpp
+C:\Users\C16632B\OneDrive - CNH Industrial\Desktop\Programming\Game_Engine\Engine\Utilities\MathTypes.h(6,21): warning C4305: 'initializing': truncation from 'double' to 'const float'
+  (compiling source file '../ContentTools/Geometry.cpp')
+  
+C:\Users\C16632B\OneDrive - CNH Industrial\Desktop\Programming\Game_Engine\ContentTools\Geometry.cpp(142,22): warning C4244: 'initializing': conversion from 'int' to 'u8', possible loss of data
+C:\Users\C16632B\OneDrive - CNH Industrial\Desktop\Programming\Game_Engine\ContentTools\Geometry.cpp(142,20): warning C4244: 'initializing': conversion from 'int' to 'const u8', possible loss of data
+  PrimitiveMesh.cpp
+C:\Users\C16632B\OneDrive - CNH Industrial\Desktop\Programming\Game_Engine\Engine\Utilities\MathTypes.h(6,21): warning C4305: 'initializing': truncation from 'double' to 'const float'
+  (compiling source file '../ContentTools/PrimitiveMesh.cpp')
+  
+C:\Users\C16632B\OneDrive - CNH Industrial\Desktop\Programming\Game_Engine\ContentTools\PrimitiveMesh.cpp(122,61): warning C4100: 'info': unreferenced formal parameter
+C:\Users\C16632B\OneDrive - CNH Industrial\Desktop\Programming\Game_Engine\ContentTools\PrimitiveMesh.cpp(122,27): warning C4100: 'scene': unreferenced formal parameter
+C:\Users\C16632B\OneDrive - CNH Industrial\Desktop\Programming\Game_Engine\ContentTools\PrimitiveMesh.cpp(127,66): warning C4100: 'info': unreferenced formal parameter
+C:\Users\C16632B\OneDrive - CNH Industrial\Desktop\Programming\Game_Engine\ContentTools\PrimitiveMesh.cpp(127,32): warning C4100: 'scene': unreferenced formal parameter
+C:\Users\C16632B\OneDrive - CNH Industrial\Desktop\Programming\Game_Engine\ContentTools\PrimitiveMesh.cpp(132,67): warning C4100: 'info': unreferenced formal parameter
+C:\Users\C16632B\OneDrive - CNH Industrial\Desktop\Programming\Game_Engine\ContentTools\PrimitiveMesh.cpp(132,33): warning C4100: 'scene': unreferenced formal parameter
+C:\Users\C16632B\OneDrive - CNH Industrial\Desktop\Programming\Game_Engine\ContentTools\PrimitiveMesh.cpp(136,65): warning C4100: 'info': unreferenced formal parameter
+C:\Users\C16632B\OneDrive - CNH Industrial\Desktop\Programming\Game_Engine\ContentTools\PrimitiveMesh.cpp(136,31): warning C4100: 'scene': unreferenced formal parameter
+C:\Users\C16632B\OneDrive - CNH Industrial\Desktop\Programming\Game_Engine\ContentTools\PrimitiveMesh.cpp(141,64): warning C4100: 'info': unreferenced formal parameter
+C:\Users\C16632B\OneDrive - CNH Industrial\Desktop\Programming\Game_Engine\ContentTools\PrimitiveMesh.cpp(141,30): warning C4100: 'scene': unreferenced formal parameter
+  Generating Code...
+     Creating library C:\Users\C16632B\OneDrive - CNH Industrial\Desktop\Programming\Game_Engine\x64\DebugEditor\ContentTools.lib and object C:\Users\C16632B\OneDrive - CNH Industrial\Desktop\Programming\Game_Engine\x64\DebugEditor\ContentTools.exp
+  ContentTools.vcxproj -> C:\Users\C16632B\OneDrive - CNH Industrial\Desktop\Programming\Game_Engine\x64\DebugEditor\ContentTools.dll

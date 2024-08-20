@@ -10,10 +10,12 @@
 	<AppendRuntimeIdentifierToOutputPath>false</AppendRuntimeIdentifierToOutputPath>
     <PlatformTarget>x64</PlatformTarget>
     <Platforms>x64</Platforms>
-    <Configurations>Debug;Release;DebugEditor;ReleaseEditor</Configurations>
+    <Configurations>DebugEditor;ReleaseEditor</Configurations>
     <PackageOutputPath>..\x64</PackageOutputPath>
     <BaseOutputPath>..\</BaseOutputPath>
   </PropertyGroup>
+
+
 
 
   <ItemGroup>
