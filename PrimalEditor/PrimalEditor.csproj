@@ -6,6 +6,7 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <UseWPF>true</UseWPF>
+	<XamlDebuggingInformation>True</XamlDebuggingInformation>
 	<AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
 	<AppendRuntimeIdentifierToOutputPath>false</AppendRuntimeIdentifierToOutputPath>
     <PlatformTarget>x64</PlatformTarget>
@@ -15,7 +16,9 @@
     <BaseOutputPath>..\</BaseOutputPath>
   </PropertyGroup>
 
-
+  <ItemGroup>
+    <None Remove="Resource\PrimitiveMeshView\SphericalTexture.png" />
+  </ItemGroup>
 
 
   <ItemGroup>
@@ -40,6 +43,19 @@
   </ItemGroup>
 
 
+  <ItemGroup>
+    <Resource Include="Resource\PrimitiveMeshView\SphericalTexture.png" />
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <Resource Include="Resource\PrimitiveMeshView\World.jpg" />
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <Resource Include="Resource\PrimitiveMeshView\SURAJ.png" />
+  </ItemGroup>
 
 
 

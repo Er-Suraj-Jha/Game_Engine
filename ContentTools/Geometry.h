@@ -29,7 +29,6 @@ namespace packed_vertex {
 		utl::vector<math::v3>				   normals;
 		utl::vector<math::v4>				   tangents;
 		utl::vector<utl::vector<math::v2>>     uv_sets;     //each uv_sets contain a list of uv coordinates
-
 		utl::vector<u32>					   raw_indices;
 
 		//Intermediate data

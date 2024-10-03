@@ -5,12 +5,12 @@
   Engine.cpp
   Main.cpp
   Platform.cpp
+C:\Users\C16632B\OneDrive - CNH Industrial\Desktop\Programming\Game_Engine\Engine\Components\Transform.cpp(34,24): warning C4100: 'c': unreferenced formal parameter
 C:\Users\C16632B\OneDrive - CNH Industrial\Desktop\Programming\Game_Engine\Engine\Components\Script.cpp(93,26): warning C4244: 'argument': conversion from 'primal::script::script_id' to '_Ty', possible loss of data
 C:\Users\C16632B\OneDrive - CNH Industrial\Desktop\Programming\Game_Engine\Engine\Components\Script.cpp(93,26): warning C4244:         with
 C:\Users\C16632B\OneDrive - CNH Industrial\Desktop\Programming\Game_Engine\Engine\Components\Script.cpp(93,26): warning C4244:         [
 C:\Users\C16632B\OneDrive - CNH Industrial\Desktop\Programming\Game_Engine\Engine\Components\Script.cpp(93,26): warning C4244:             _Ty=primal::id::generation_type
 C:\Users\C16632B\OneDrive - CNH Industrial\Desktop\Programming\Game_Engine\Engine\Components\Script.cpp(93,26): warning C4244:         ]
-C:\Users\C16632B\OneDrive - CNH Industrial\Desktop\Programming\Game_Engine\Engine\Components\Transform.cpp(34,24): warning C4100: 'c': unreferenced formal parameter
 C:\Users\C16632B\OneDrive - CNH Industrial\Desktop\Programming\Game_Engine\Engine\Content\ContentLoader.cpp(97,23): warning C4189: 'entity_type': local variable is initialized but not referenced
 C:\Users\C16632B\OneDrive - CNH Industrial\Desktop\Programming\Game_Engine\Engine\Content\ContentLoader.cpp(105,22): warning C4189: 'var2': local variable is initialized but not referenced
 C:\Users\C16632B\OneDrive - CNH Industrial\Desktop\Programming\Game_Engine\Engine\Content\ContentLoader.cpp(104,22): warning C4189: 'var1': local variable is initialized but not referenced
