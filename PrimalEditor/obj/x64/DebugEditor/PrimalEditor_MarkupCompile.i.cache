@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUGEDITOR;NET;NET8_0;NETCOREAPP
 C:\Users\C16632B\OneDrive - CNH Industrial\Desktop\Programming\Game_Engine\PrimalEditor\App.xaml
-171710435576
+19-1044412732
 
-46-1753309913
+50-1744601993
 200522035563
-Dictionaries\ControlTemplates.xaml;Dictionaries\EditorColors.xaml;Editors\WorldEditor\ComponentView.xaml;Editors\WorldEditor\GameEntityView.xaml;Editors\WorldEditor\ProjectLayoutView.xaml;Editors\WorldEditor\ScriptView.xaml;Editors\WorldEditor\TransformView.xaml;Editors\WorldEditor\WorldEditorView.xaml;EnginePathDialog.xaml;GameDev\NewScriptDialog.xaml;GameProject\NewProjectView.xaml;GameProject\OpenProjectView.xaml;GameProject\ProjectBrowserDialog.xaml;MainWindow.xaml;Utility\LoggerView.xaml;Utility\RenderSurface\RenderSurfaceView.xaml;Utility\UndoRedoView.xaml;
+Content\PrimitiveMeshDialog.xaml;Dictionaries\ControlTemplates.xaml;Dictionaries\EditorColors.xaml;Editors\GeometryEditor\GeometryView.xaml;Editors\WorldEditor\ComponentView.xaml;Editors\WorldEditor\GameEntityView.xaml;Editors\WorldEditor\ProjectLayoutView.xaml;Editors\WorldEditor\ScriptView.xaml;Editors\WorldEditor\TransformView.xaml;Editors\WorldEditor\WorldEditorView.xaml;EnginePathDialog.xaml;GameDev\NewScriptDialog.xaml;GameProject\NewProjectView.xaml;GameProject\OpenProjectView.xaml;GameProject\ProjectBrowserDialog.xaml;MainWindow.xaml;Utility\LoggerView.xaml;Utility\RenderSurface\RenderSurfaceView.xaml;Utility\UndoRedoView.xaml;
 
 False
 

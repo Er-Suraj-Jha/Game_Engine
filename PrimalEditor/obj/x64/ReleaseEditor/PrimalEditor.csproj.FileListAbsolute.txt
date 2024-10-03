@@ -60,3 +60,7 @@ C:\Users\C16632B\OneDrive - CNH Industrial\Desktop\Programming\Game_Engine\Prima
 C:\Users\C16632B\OneDrive - CNH Industrial\Desktop\Programming\Game_Engine\PrimalEditor\obj\x64\ReleaseEditor\Editors\WorldEditor\ScriptView.baml
 C:\Users\C16632B\OneDrive - CNH Industrial\Desktop\Programming\Game_Engine\PrimalEditor\obj\x64\ReleaseEditor\Utility\RenderSurface\RenderSurfaceView.g.cs
 C:\Users\C16632B\OneDrive - CNH Industrial\Desktop\Programming\Game_Engine\PrimalEditor\obj\x64\ReleaseEditor\Utility\RenderSurface\RenderSurfaceView.baml
+C:\Users\C16632B\OneDrive - CNH Industrial\Desktop\Programming\Game_Engine\PrimalEditor\obj\x64\ReleaseEditor\Content\PrimitiveMeshDialog.g.cs
+C:\Users\C16632B\OneDrive - CNH Industrial\Desktop\Programming\Game_Engine\PrimalEditor\obj\x64\ReleaseEditor\Editors\GeometryEditor\GeometryView.g.cs
+C:\Users\C16632B\OneDrive - CNH Industrial\Desktop\Programming\Game_Engine\PrimalEditor\obj\x64\ReleaseEditor\Content\PrimitiveMeshDialog.baml
+C:\Users\C16632B\OneDrive - CNH Industrial\Desktop\Programming\Game_Engine\PrimalEditor\obj\x64\ReleaseEditor\Editors\GeometryEditor\GeometryView.baml

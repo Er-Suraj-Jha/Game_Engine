@@ -1,2 +1,15 @@
-﻿     Creating library C:\Users\C16632B\OneDrive - CNH Industrial\Desktop\Programming\Game_Engine\x64\DebugEditor\EngineDLL.lib and object C:\Users\C16632B\OneDrive - CNH Industrial\Desktop\Programming\Game_Engine\x64\DebugEditor\EngineDLL.exp
+﻿  dllmain.cpp
+C:\Users\C16632B\OneDrive - CNH Industrial\Desktop\Programming\Game_Engine\EngineDLL\dllmain.cpp(11,31): warning C4100: 'lpReserved': unreferenced formal parameter
+C:\Users\C16632B\OneDrive - CNH Industrial\Desktop\Programming\Game_Engine\EngineDLL\dllmain.cpp(9,32): warning C4100: 'hModule': unreferenced formal parameter
+  EngineAPI.cpp
+C:\Users\C16632B\OneDrive - CNH Industrial\Desktop\Programming\Game_Engine\Engine\Utilities\MathTypes.h(6,21): warning C4305: 'initializing': truncation from 'double' to 'const float'
+  (compiling source file 'EngineAPI.cpp')
+  
+  EntityAPI.cpp
+C:\Users\C16632B\OneDrive - CNH Industrial\Desktop\Programming\Game_Engine\Engine\Utilities\MathTypes.h(6,21): warning C4305: 'initializing': truncation from 'double' to 'const float'
+  (compiling source file 'EntityAPI.cpp')
+  
+  Generating Code...
+C:\Users\C16632B\OneDrive - CNH Industrial\Desktop\Programming\Game_Engine\EngineDLL\dllmain.cpp(17): warning C4702: unreachable code
+     Creating library C:\Users\C16632B\OneDrive - CNH Industrial\Desktop\Programming\Game_Engine\x64\DebugEditor\EngineDLL.lib and object C:\Users\C16632B\OneDrive - CNH Industrial\Desktop\Programming\Game_Engine\x64\DebugEditor\EngineDLL.exp
   EngineDLL.vcxproj -> C:\Users\C16632B\OneDrive - CNH Industrial\Desktop\Programming\Game_Engine\x64\DebugEditor\EngineDLL.dll

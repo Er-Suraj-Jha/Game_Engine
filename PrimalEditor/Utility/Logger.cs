@@ -21,6 +21,9 @@ namespace PrimalEditor.Utilities
         Error = 0x04,
     }
 
+    // Logger.Log(MessageType.Error, $"failed to create {info.Type} primitive mesh.");
+
+
     class LogMessage
     {
         public DateTime Time { get; }
